@@ -1,16 +1,13 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../context/themeContext'
 import profile from '../../assets/profile.png'
-import fb from '../../assets/icons/facebook.png'
-import tw from '../../assets/icons/twitter.png'
-import ln from '../../assets/icons/linkedin.png'
 
 const Leftside = () => {
 
   const { cardColor, bFontColor, fontColor, sFontColor } = useContext(ThemeContext);
 
   return (
-    <aside className="w-full min-w-[280px] sm:w-[25%] text-white p-5 sm:h-full">
+    <aside className="w-full sm:min-w-[280px] sm:w-[25%] text-white p-5 sm:h-full">
         <div className="w-full h-full flex flex-col items-center justify-center rounded-lg text-center px-4 sm:px-0 py-8 sm:py-0" style={{ backgroundColor: cardColor }}>
           <img
             src={profile}

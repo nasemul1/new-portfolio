@@ -2,7 +2,7 @@ import React from 'react'
 
 const Middle = () => {
   return (
-    <main className="w-full sm:w-[70%] sm:overflow-y-auto mb-6 sm:mb-0 p-6 h-screen">
+    <main className="w-full sm:w-[65%] sm:overflow-y-auto mb-6 sm:mb-0 p-6 h-screen">
         <section className="mb-8">
           <h1 className="text-3xl font-bold">About Me</h1>
           <p className="text-gray-700">Write about yourself here...</p>

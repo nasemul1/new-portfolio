@@ -10,13 +10,15 @@ const ThemeContextProvider = (props) => {
     const [bFontColor, setbFontColor] = useState('#FFFFFF');
     const [fontColor, setFontColor] = useState('#858585');
     const [sFontColor, setsFontColor] = useState('#53A825');
+    const [sColor, setsColor] = useState('#53A825');
 
     const value = {
         bgColor, setBgColor,
         cardColor, setCardColor,
         bFontColor, setbFontColor,
         fontColor, setFontColor,
-        sFontColor, setsFontColor
+        sFontColor, setsFontColor,
+        sColor, setsColor
     }
 
     return (
