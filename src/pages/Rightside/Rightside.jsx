@@ -6,8 +6,8 @@ const Rightside = () => {
   const { bgColor, cardColor, sColor} = useContext(ThemeContext);
 
   return (
-    <aside className="p-5 fixed sm:relative bottom-0 w-full sm:w-[100px] text-white sm:right-0 sm:h-full flex items-center justify-center sm:gap-y-6" style={{backgroundColor: bgColor}}>
-        <nav className='flex sm:flex-col items-center justify-center gap-3 sm:gap-4 rounded-lg w-full px-5 sm:px-0 py-2 sm:py-5' style={{backgroundColor: cardColor}}>
+    <aside className="p-5 sm:pr-10 sm:pt-0 sm:pl-0 sm:pb-0 fixed sm:relative left-0 bottom-0 w-full sm:w-[110px] text-white sm:right-0 sm:h-full flex items-center justify-center sm:gap-y-6">
+        <nav className='flex sm:flex-col items-center justify-center gap-5 rounded-lg w-full px-5 sm:px-0 py-2 sm:py-5' style={{backgroundColor: cardColor}}>
           <a href="#home" className="p-2 hover:text-[#53A825]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 sm:size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />

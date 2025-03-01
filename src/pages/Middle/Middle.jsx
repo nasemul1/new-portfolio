@@ -1,12 +1,13 @@
 import React from 'react'
+import Introduction from '../../components/Introduction'
+import About from '../../components/About'
 
 const Middle = () => {
   return (
-    <main className="w-full sm:w-[65%] sm:overflow-y-auto mb-6 sm:mb-0 p-6 h-screen">
-        <section className="mb-8">
-          <h1 className="text-3xl font-bold">About Me</h1>
-          <p className="text-gray-700">Write about yourself here...</p>
-        </section>
+    <main className="w-full sm:w-[65%] sm:overflow-y-auto scrollbar-hide scroll-smooth mb-6 p-5 sm:px-8 sm:py-10 sm:mb-0 max-h-screen">
+
+        <Introduction />
+        <About />
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold">Skills</h2>

@@ -13,7 +13,7 @@ const App = () => {
   })
 
   return (
-    <div className="max-w-[1970px] mx-auto flex flex-col sm:flex-row gap-5 h-screen w-full">
+    <div className="mx-auto flex flex-col sm:flex-row sm:justify-center h-screen w-full">
       {/* left sidebar - profile info */}
       <Leftside />
       {/* Main Content - Scrollable */}

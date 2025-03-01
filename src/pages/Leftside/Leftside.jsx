@@ -7,7 +7,7 @@ const Leftside = () => {
   const { cardColor, bFontColor, fontColor, sFontColor } = useContext(ThemeContext);
 
   return (
-    <aside className="w-full sm:min-w-[280px] sm:w-[25%] text-white p-5 sm:h-full">
+    <aside className="w-full sm:min-w-[280px] sm:w-[25%] sm:max-w-[360px] text-white sm:h-full p-5 sm:pl-10 sm:pt-10 sm:pb-10 sm:pr-0">
         <div className="w-full h-full flex flex-col items-center justify-center rounded-lg text-center px-4 sm:px-0 py-8 sm:py-0" style={{ backgroundColor: cardColor }}>
           <img
             src={profile}
