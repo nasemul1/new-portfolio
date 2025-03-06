@@ -34,7 +34,7 @@ const Skills = () => {
           </div>
           
           <div className='mb-5'>
-            <div className='flex flex-wrap items-end gap-12'>
+            <div className='flex flex-wrap items-end justify-center gap-12'>
               
               <div className='flex flex-col items-center gap-5 text-xs 2xl:text-sm'>
                 <img className='size-14 2xl:size-16 grayscale hover:grayscale-0' src={js} alt="" />
@@ -51,8 +51,8 @@ const Skills = () => {
                 <p>Node Js</p>
               </div>
 
-              <div className='flex flex-col items-center gap-8 text-xs 2xl:text-sm font-medium'>
-                <img className='w-14 2xl:w-16 grayscale hover:grayscale-0' src={express} alt="" />
+              <div className='flex flex-col items-center gap-5 text-xs 2xl:text-sm font-medium'>
+                <img className='size-14 2xl:size-16 grayscale hover:grayscale-0' src={express} alt="" />
                 <p>Express Js</p>
               </div>
 

@@ -6,6 +6,7 @@ import Intro from '../pages/Intro'
 import About from '../pages/About'
 import Leftside from './Leftside'
 import Skills from '../pages/Skills'
+import Work from '../pages/Work'
 
 const Middle = () => {
 
@@ -24,6 +25,9 @@ const Middle = () => {
         </Element>
         <Element name="skill">
           <Skills />
+        </Element>
+        <Element name="work">
+          <Work />
         </Element>
     </>
   );

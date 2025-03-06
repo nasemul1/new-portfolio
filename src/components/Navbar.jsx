@@ -30,7 +30,7 @@ const Navbar = () => {
           spy={true}
           smooth={true} 
           duration={500}
-          offset={-35}
+          offset={-40}
           containerId="main"
           className='p-2'
         >
@@ -43,8 +43,9 @@ const Navbar = () => {
           activeClass='active'
           to="skill"
           spy={true}
-          smooth={true} 
+          smooth={true}
           duration={500}
+          offset={-40}
           containerId="main"
           className='p-2'
         >
@@ -55,10 +56,11 @@ const Navbar = () => {
 
         <ScrollLink 
           activeClass='active'
-          to="section1"
+          to="work"
           spy={true}
           smooth={true} 
           duration={500}
+          offset={-40}
           containerId="main"
           className='p-2'
         >
