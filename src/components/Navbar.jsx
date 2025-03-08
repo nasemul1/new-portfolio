@@ -7,7 +7,7 @@ const Navbar = () => {
   const { cardColor, sColor } = useContext(ThemeContext);
 
   return (
-    <aside className="px-5 py-4 sm:pr-10 sm:pt-0 sm:pl-0 sm:pb-0 fixed sm:relative left-0 bottom-0 w-full sm:w-[110px] text-white sm:right-0 sm:h-full flex items-center justify-center sm:gap-y-6">
+    <aside className="z-20 px-5 py-4 sm:pr-10 sm:pt-0 sm:pl-0 sm:pb-0 fixed sm:relative left-0 bottom-0 w-full sm:w-[110px] text-white sm:right-0 sm:h-full flex items-center justify-center sm:gap-y-6">
       <nav className='flex sm:flex-col items-center justify-center gap-5 rounded-lg w-full py-2 sm:px-0 sm:py-5' style={{ backgroundColor: cardColor }}>
         <ScrollLink 
           activeClass='active'
@@ -71,10 +71,11 @@ const Navbar = () => {
 
         <ScrollLink 
           activeClass='active'
-          to="section1"
+          to="projects"
           spy={true}
           smooth={true} 
           duration={500}
+          offset={-40}
           containerId="main"
           className='p-2'
         >
@@ -85,10 +86,11 @@ const Navbar = () => {
 
         <ScrollLink 
           activeClass='active'
-          to="section1"
+          to="contact"
           spy={true}
           smooth={true} 
           duration={500}
+          offset={-40}
           containerId="main"
           className='p-2'
         >

@@ -26,7 +26,7 @@ const Skills = () => {
         <div className='pt-8 w-full'>
           
           <div className='mb-5'>
-              <p className='text-4xl 2xl:text-5xl text-left'><span className='font-light'>My</span> <span className='font-semibold' style={{color: sColor}}>Skills</span></p>
+              <p className='text-4xl 2xl:text-5xl text-left font-semibold'><span>My</span> <span className='bg-gradient-to-r from-violet-600 to-indigo-600 px-2 pb-1 rounded-sm'>Skills</span></p>
           </div>
           
           <div className='mb-14'>
@@ -56,8 +56,8 @@ const Skills = () => {
                 <p>Express Js</p>
               </div>
 
-              <div className='flex flex-col items-center gap-10 text-xs 2xl:text-sm font-medium'>
-                <img className='w-14 2xl:w-16 grayscale hover:grayscale-0' src={mongo} alt="" />
+              <div className='flex flex-col items-center gap-5 text-xs 2xl:text-sm font-medium'>
+                <img className='size-14 2xl:size-16 grayscale hover:grayscale-0' src={mongo} alt="" />
                 <p>MongoDB</p>
               </div>
 

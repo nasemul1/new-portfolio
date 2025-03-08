@@ -21,7 +21,7 @@ const Work = () => {
         <div className='w-full pt-8'>
           
           <div className='mb-5'>
-              <p className='text-4xl 2xl:text-5xl text-left'><span className='font-light'>Work</span> <span className='font-semibold' style={{color: sColor}}>Experience</span></p>
+              <p className='text-4xl 2xl:text-5xl text-left font-semibold'><span>Work</span> <span className='bg-gradient-to-r from-green-400 to-blue-500 px-2 pb-1 rounded-sm'>Experience</span></p>
           </div>
           
           <div className='mb-5'>
@@ -37,10 +37,10 @@ const Work = () => {
                       <p className='text-xs' style={{color: fontColor}}>Nov 2024 - Present</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: ' #3498db '}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>Founder & Frontend Developer</p>
+                    <p className='text-lg font-semibold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>Founder & Frontend Developer</p>
                     <p className='mt-2'>All in one travel app. Where you get travel packages, hotel booking, guide hiring and many more to come.</p>
                   </div>
                 </li>
@@ -50,10 +50,10 @@ const Work = () => {
                       <p className='text-xs' style={{color: fontColor}}>Oct 2024 - Dec 2024</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: ' #3498db '}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>Web Design & Development Intern</p>
+                    <p className='text-lg font-semibold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>Web Design & Development Intern</p>
                     <p className='mt-2'>PixelNet is a web development and digital marketing agency offering a range of services to enhance online presence and drive business growth.</p>
                   </div>
                 </li>
@@ -63,10 +63,10 @@ const Work = () => {
                       <p className='text-xs' style={{color: fontColor}}>Apr 2022 - Mar 2023</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: ' #3498db '}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>Assistant Senior Executive</p>
+                    <p className='text-lg font-semibold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>Assistant Senior Executive</p>
                     <p className='mt-2'>PixelNet is a web development and digital marketing agency offering a range of services to enhance online presence and drive business growth.</p>
                   </div>
                 </li>
@@ -79,7 +79,7 @@ const Work = () => {
         <div className='w-full pt-10'>
           
           <div className='mb-5'>
-              <p className='text-4xl 2xl:text-5xl text-left'><span className='font-light'>My</span> <span className='font-semibold' style={{color: sColor}}>Education</span></p>
+              <p className='text-4xl 2xl:text-5xl text-left font-semibold'><span>My</span> <span className='bg-gradient-to-r from-green-400 to-blue-500 px-2 rounded-sm'>Education</span></p>
           </div>
           
           <div className='mb-5'>
@@ -91,40 +91,40 @@ const Work = () => {
               <ul>
                 <li className='pb-10 relative flex gap-6'>
                   <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
-                      <a target='_blank' href='https://ist.edu.bd/' className='font-bold'>Institute of Science & Technology</a>
+                      <a target='_blank' href='https://ist.edu.bd/' className='font-bold '>Institute of Science & Technology</a>
                       <p className='text-xs' style={{color: fontColor}}>Nov 2021 - Present</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: '#3498db'}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>B.Sc in CSE</p>
+                    <p className='text-lg bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>B.Sc in CSE</p>
                     <p className='mt-2'>Learning Programming & Software Development, Data Structures & Algorithms, Operating Systems, Database Management Systems (DBMS), Computer Networks & Security and many more</p>
                   </div>
                 </li>
                 <li className='pb-10 relative flex gap-6'>
                   <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
-                      <p className='font-bold'>Dr. Mahabubur Rahman Molla College</p>
+                      <p className='font-bold '>Dr. Mahabubur Rahman Molla College</p>
                       <p className='text-xs' style={{color: fontColor}}>June 2018 - June 2020</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: '#3498db'}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>HSC(Science)</p>
+                    <p className='text-lg bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>HSC(Science)</p>
                     <p className='mt-2'>Got GPA - 5</p>
                   </div>
                 </li>
                 <li className='relative flex gap-6'>
                   <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
-                      <p className='font-bold'>Equria Model High School</p>
+                      <p className='font-bold '>Equria Model High School</p>
                       <p className='text-xs' style={{color: fontColor}}>Jan 2016 - Feb 2018</p>
                   </div>
                   <div className='before:mt-2 before:absolute before:ml-[5px] before:h-full before:w-[2px] before:bg-[#858585]'>
-                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: sColor}}></div>
+                    <div className='mt-2 relative z-10 w-3 h-3 rounded-full' style={{backgroundColor: '#3498db'}}></div>
                   </div>
                   <div className='flex-1 text-sm text-white'>
-                    <p className='text-lg font-semibold' style={{color: sColor}}>SSC(Science)</p>
+                    <p className='text-lg bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>SSC(Science)</p>
                     <p className='mt-2'>Got GPA-5</p>
                   </div>
                 </li>

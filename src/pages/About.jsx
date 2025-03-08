@@ -24,7 +24,7 @@ const About = () => {
             {/* right */}
             <div className='w-full sm:w-[65%]'>
                 <div className='mb-5'>
-                    <p className='text-4xl 2xl:text-5xl text-right'><span className='font-light'>About</span> <span className='font-semibold' style={{color: sColor}}>Me</span></p>
+                    <p className='text-4xl 2xl:text-5xl text-right font-semibold'><span className='bg-gradient-to-r from-indigo-500 to-blue-500 px-2 pb-1 rounded-sm'>About</span> <span >Me</span></p>
                 </div>
                 <div className='mb-5'>
                     <p className='text-xs 2xl:text-sm text-justify' style={{color: fontColor}}>I am a dedicated Computer Science student with a strong foundation in web development and competitive programming. I participated in <span className='font-medium' style={{color: bFontColor}}>ICPC Dhaka Regional 2023</span> and <span className='font-medium' style={{color: bFontColor}}>CUET Code Storm 1.0</span>, showcasing my problem-solving skills.
@@ -54,15 +54,15 @@ const About = () => {
                 <div className='mb-5'>
                     <div className='flex gap-5 sm:gap-14'>
                         <div className=''>
-                            <p className='text-2xl 2xl:text-4xl font-bold mb-1' style={{color: sColor}}>1+</p>
+                            <p className='text-2xl 2xl:text-4xl font-bold mb-1 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent'>1+</p>
                             <p className='text-xs 2xl:text-sm' style={{color: fontColor}}>Years of experience</p>
                         </div>
                         <div className=''>
-                            <p className='text-2xl 2xl:text-4xl font-bold mb-1' style={{color: sColor}}>10+</p>
+                            <p className='text-2xl 2xl:text-4xl font-bold mb-1 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent'>10+</p>
                             <p className='text-xs 2xl:text-sm' style={{color: fontColor}}>Projects handled</p>
                         </div>
                         <div className=''>
-                            <p className='text-2xl 2xl:text-4xl font-bold mb-1' style={{color: sColor}}>3</p>
+                            <p className='text-2xl 2xl:text-4xl font-bold mb-1 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent'>3</p>
                             <p className='text-xs 2xl:text-sm' style={{color: fontColor}}>Brands</p>
                         </div>
                     </div>

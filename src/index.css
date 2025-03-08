@@ -20,8 +20,15 @@ body {
 }
 
 a.active{
-    color: #53A825;
-    border: 1px solid #53A825;
+    color: #06b6d4;
+    border: 1px solid #06b6d4;
     border-radius: 100%;
     border-style: dashed;
+}
+
+@layer utilities {
+    #strokeText {
+      -webkit-text-stroke: 1px white;
+      color: transparent;
+    }
 }

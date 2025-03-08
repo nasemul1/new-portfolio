@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../context/themeContext'
 import profile from '../assets/profile.png'
+import profile1 from '../assets/picofme.png'
 
 const Leftside = () => {
 
@@ -10,12 +11,12 @@ const Leftside = () => {
     <aside className="w-full sm:min-w-[280px] max-h-[1080px] text-white mb-5 sm:mb-5 sm:h-full sm:pl-10 sm:pt-10 sm:pb-10 sm:pr-0">
         <div className="w-full h-full flex flex-col items-center justify-center rounded-lg text-center px-4 sm:px-0 py-8 sm:py-0" style={{ backgroundColor: cardColor }}>
           <img
-            src={profile}
+            src={profile1}
             alt="Profile"
             className="w-28 lg:w-32 2xl:w-40 h-28 lg:h-32 2xl:h-40 mx-auto rounded-full border-4 border-[#505050]"
           />
           <h2 className="mt-4 text-xl 2xl:text-2xl font-bold" style={{ color: bFontColor }}>Md Nasemul Islam</h2>
-          <p className="2xl:text-xl" style={{color: sFontColor}}>Frontend Developer</p>
+          <p className="2xl:text-xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">Full Stack Developer</p>
           <hr className="w-3/4 border-gray-500 opacity-35 my-7"/>
           <div className='w-full px-8 2xl:px-10'>
             <div className='flex justify-between'>
@@ -49,7 +50,7 @@ const Leftside = () => {
             </div>
           </div>
           <a href='' className='w-full px-6 2xl:px-8'>
-            <div className='w-full py-[6px] rounded-md bg-[#53A825]'>
+            <div className='font-semibold w-full py-[6px] rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
               Download CV
             </div>
           </a>
