@@ -16,9 +16,9 @@ const Intro = () => {
                 <span style={{color:fontColor}}>Introduction</span>
             </div>
         </div>
-        <div className='flex flex-col-reverse sm:flex-row sm:gap-10'>
+        <div className='flex flex-col-reverse md:flex-row md:gap-10'>
             {/* left */}
-            <div className='w-full sm:w-1/2'>
+            <div className='w-full md:w-1/2'>
                 <div className='mt-12 mb-6'>
                     <p className='text-4xl/snug 2xl:text-5xl font-semibold'>I build the <br /><span className='bg-gradient-to-r from-fuchsia-500 to-pink-500 px-2 pb-1 rounded-sm'>Future</span> with code</p>
                 </div>
@@ -63,7 +63,7 @@ const Intro = () => {
                 </div>
             </div>
             {/* right */}
-            <div className='w-full sm:w-1/2 flex items-center justify-center'>
+            <div className='w-full md:w-1/2 flex items-center justify-center'>
                 <img className='w-full' src={sideimg} alt="" />
             </div>
         </div>

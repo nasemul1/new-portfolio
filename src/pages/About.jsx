@@ -7,7 +7,7 @@ const About = () => {
     const { bFontColor ,fontColor ,cardColor, sColor } = useContext(ThemeContext);
 
   return (
-    <section className='text-white mt-5 sm:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
+    <section className='text-white mt-5 md:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
         <div className='inline-block'>
             <div className='flex items-center gap-2 border border-gray-800 px-4 py-[6px] rounded-full'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5" style={{color: sColor}}>
@@ -16,13 +16,13 @@ const About = () => {
                 <span style={{color:fontColor}}>About</span>
             </div>
         </div>
-        <div className='pt-8 w-full flex flex-col sm:flex-row gap-8 2xl:gap-12'>
+        <div className='pt-8 w-full flex flex-col md:flex-row gap-8 2xl:gap-12'>
             {/* left */}
-            <div className='w-full sm:w-[35%] flex justify-start items-center'>
+            <div className='w-full md:w-[35%] flex justify-start items-center'>
                 <img className='w-full rounded-lg border-2 border-[#858585] grayscale duration-150 ease-in-out hover:grayscale-0' src={cuet} alt="" />
             </div>
             {/* right */}
-            <div className='w-full sm:w-[65%]'>
+            <div className='w-full md:w-[65%]'>
                 <div className='mb-5'>
                     <p className='text-4xl 2xl:text-5xl text-right font-semibold'><span className='bg-gradient-to-r from-indigo-500 to-blue-500 px-2 pb-1 rounded-sm'>About</span> <span >Me</span></p>
                 </div>
@@ -36,7 +36,7 @@ const About = () => {
                     <div className='text-xs 2xl:text-sm border border-dashed px-5 py-[6px] rounded-full' style={{color: fontColor}}>Problem Solving (cp)</div>
                 </div>
                 <div className='mb-10'>
-                    <div className='mx-auto grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 sm:gap-x-10'>
+                    <div className='mx-auto grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-5 md:gap-x-10'>
                         <div className='flex justify-between text-xs 2xl:text-sm text-left'>
                             <p style={{color: fontColor}}>Phone</p> <p>:</p> <p>+8801688-539299</p>
                         </div>
@@ -52,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mb-5'>
-                    <div className='flex gap-5 sm:gap-14'>
+                    <div className='flex gap-5 md:gap-14'>
                         <div className=''>
                             <p className='text-2xl 2xl:text-4xl font-bold mb-1 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent'>1+</p>
                             <p className='text-xs 2xl:text-sm' style={{color: fontColor}}>Years of experience</p>

@@ -1,6 +1,5 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { Link, Element } from 'react-scroll'
-import { ThemeContext } from '../context/themeContext'
 
 import Intro from '../pages/Intro'
 import About from '../pages/About'
@@ -12,12 +11,11 @@ import Contact from '../pages/Contact'
 
 const Middle = () => {
 
-  const { bFontColor, fontColor ,cardColor,sColor } = useContext(ThemeContext);
 
   return (
     <>
         <Element name="intro">
-            <div className='block sm:hidden'>
+            <div className='block md:hidden'>
               <Leftside />
             </div>
             <Intro />

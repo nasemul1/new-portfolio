@@ -6,7 +6,7 @@ const Work = () => {
     const { fontColor, cardColor, sColor } = useContext(ThemeContext);
 
   return (
-    <section className='text-white mt-5 sm:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
+    <section className='text-white mt-5 md:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
         {/* top badge */}
         <div className='inline-block'>
             <div className='flex items-center gap-2 border border-gray-800 px-4 py-[6px] rounded-full'>
@@ -32,7 +32,7 @@ const Work = () => {
             <div>
               <ul>
                 <li className='pb-10 relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <a target='_blank' href='https://www.tripstins.com' className='font-bold'>TripStins</a>
                       <p className='text-xs' style={{color: fontColor}}>Nov 2024 - Present</p>
                   </div>
@@ -45,7 +45,7 @@ const Work = () => {
                   </div>
                 </li>
                 <li className='pb-10 relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <a target='_blank' href='https://www.pixelnet.in/' className='font-bold'>PixelNet</a>
                       <p className='text-xs' style={{color: fontColor}}>Oct 2024 - Dec 2024</p>
                   </div>
@@ -58,7 +58,7 @@ const Work = () => {
                   </div>
                 </li>
                 <li className='relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <a target='_blank' href='https://www.admissionassistant.com.bd/' className='font-bold'>Admission Assistant</a>
                       <p className='text-xs' style={{color: fontColor}}>Apr 2022 - Mar 2023</p>
                   </div>
@@ -90,7 +90,7 @@ const Work = () => {
             <div>
               <ul>
                 <li className='pb-10 relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <a target='_blank' href='https://ist.edu.bd/' className='font-bold '>Institute of Science & Technology</a>
                       <p className='text-xs' style={{color: fontColor}}>Nov 2021 - Present</p>
                   </div>
@@ -103,7 +103,7 @@ const Work = () => {
                   </div>
                 </li>
                 <li className='pb-10 relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <p className='font-bold '>Dr. Mahabubur Rahman Molla College</p>
                       <p className='text-xs' style={{color: fontColor}}>June 2018 - June 2020</p>
                   </div>
@@ -116,7 +116,7 @@ const Work = () => {
                   </div>
                 </li>
                 <li className='relative flex gap-6'>
-                  <div className='mt-1 w-20 sm:w-[140px] text-sm text-white'>
+                  <div className='mt-1 w-20 md:w-[140px] text-sm text-white'>
                       <p className='font-bold '>Equria Model High School</p>
                       <p className='text-xs' style={{color: fontColor}}>Jan 2016 - Feb 2018</p>
                   </div>

@@ -14,7 +14,7 @@ const Skills = () => {
   const { fontColor, cardColor, sColor } = useContext(ThemeContext);
 
   return (
-    <section className='text-white mt-5 sm:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
+    <section className='text-white mt-5 md:mt-8 p-8 rounded-lg' style={{backgroundColor: cardColor}}>
         <div className='inline-block'>
             <div className='flex items-center gap-2 border border-gray-800 px-4 py-[6px] rounded-full'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5" style={{color: sColor}}>
