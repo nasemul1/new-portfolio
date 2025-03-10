@@ -25,7 +25,7 @@ const Work = () => {
           </div>
           
           <div className='mb-5'>
-            <p className='w-3/4 text-sm 2xl:text-sm' style={{color: fontColor}}>Strong communication and teamwork skills, with a focus on delivering exceptional results. </p>
+            <p className='' style={{color: fontColor}}>Strong communication and teamwork skills, with a focus on delivering exceptional results. </p>
           </div>
 
           <div className='mb-5 flex justify-center'>
@@ -83,7 +83,7 @@ const Work = () => {
           </div>
           
           <div className='mb-5'>
-            <p className='w-3/4 text-sm 2xl:text-sm' style={{color: fontColor}}>I possess strong analytical skills, a diligent work ethic, smart problem-solving abilities, and a keen attention to detail.</p>
+            <p className='' style={{color: fontColor}}>I possess strong analytical skills, a diligent work ethic, smart problem-solving abilities, and a keen attention to detail.</p>
           </div>
 
           <div className='mb-5 flex justify-center'>

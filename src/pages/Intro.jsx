@@ -23,7 +23,7 @@ const Intro = () => {
                     <p className='text-4xl/snug 2xl:text-5xl font-semibold'>I build the <br /><span className='bg-gradient-to-r from-fuchsia-500 to-pink-500 px-2 pb-1 rounded-sm'>Future</span> with code</p>
                 </div>
                 <div className='mb-6'>
-                    <p className='text-xs 2xl:text-sm font-medium' style={{ color: fontColor }}>A <span className='' style={{color: bFontColor}}>MERN stack developer</span> eager to learn and grow. Seeking internship or job opportunities to build dynamic web applications and enhance my skills. 🚀</p>
+                    <p className='text-sm' style={{ color: fontColor }}>A <span className='' style={{color: bFontColor}}>MERN stack developer</span> eager to learn and grow. Seeking internship or job opportunities to build dynamic web applications and enhance my skills. 🚀</p>
                 </div>
                 <div className='mb-6 flex flex-wrap gap-4'>
                     <div className='flex items-center gap-1'>

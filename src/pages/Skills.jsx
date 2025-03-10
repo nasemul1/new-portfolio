@@ -30,7 +30,7 @@ const Skills = () => {
           </div>
           
           <div className='mb-14'>
-            <p className='text-xs 2xl:text-sm' style={{color: fontColor}}>A dedicated professional with strong technical skills and effective communication, consistently driving project success. Adept at problem-solving and collaboration, ensuring smooth project execution. Passionate about delivering high-quality results and continuous improvement.</p>
+            <p className='' style={{color: fontColor}}>A dedicated professional with strong technical skills and effective communication, consistently driving project success. Adept at problem-solving and collaboration, ensuring smooth project execution. Passionate about delivering high-quality results and continuous improvement.</p>
           </div>
           
           <div className='mb-5'>

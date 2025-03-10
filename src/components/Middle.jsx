@@ -8,6 +8,7 @@ import Skills from '../pages/Skills'
 import Work from '../pages/Work'
 import Projects from '../pages/Projects'
 import Contact from '../pages/Contact'
+import Certificates from '../pages/Certificates'
 
 const Middle = () => {
 
@@ -31,6 +32,9 @@ const Middle = () => {
         </Element>
         <Element name="projects">
           <Projects />
+        </Element>
+        <Element name="certificates">
+          <Certificates />
         </Element>
         <Element name='contact'>
           <Contact />

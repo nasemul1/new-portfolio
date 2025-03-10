@@ -31,6 +31,7 @@ const Projects = () => {
         <div className='pt-8 w-full'>
             <div className='mb-5'>
                 <p className='text-4xl 2xl:text-5xl text-left font-semibold'><span>Featured</span> <span className='bg-gradient-to-r from-fuchsia-600 to-pink-600 px-2 pb-1 rounded-sm'>Projects</span></p>
+                <p className='mt-5' style={{color: fontColor}}>Here are some projects I've been working on, showcasing my skills and experience through various technologies, creative solutions, and practical implementations in web development.</p>
             </div>
         </div>
         {/* projects */}
